@@ -2,6 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+html, body{overflow-x: hidden;}
+
 a:link {
   text-decoration: none;
   color: #fafafa;
