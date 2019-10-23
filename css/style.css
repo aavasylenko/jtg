@@ -53,11 +53,12 @@ a:active {
 .callout-container {
     height: 100vh;
     
-     background: url('../assets/bg1.jpeg') no-repeat bottom right fixed; 
+    background: url('../assets/bg1.jpeg') no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
   
   display: flex;
   align-items: center;
@@ -272,6 +273,12 @@ a:active {
         width: 100px;
         margin: 0 auto;
     }
+}
+
+@media only screen and (max-width : 768px) {
+.callout-container {
+background-size: auto 100%;
+}
 }
 
 /*----------------------------Footer*/
