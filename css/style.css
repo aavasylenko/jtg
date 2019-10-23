@@ -275,7 +275,7 @@ a:active {
     }
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
 .callout-container {
    height: 100vh;
     
@@ -283,7 +283,7 @@ a:active {
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
-  background-size: 50vh 100vh;
+  background-size: 60vh 100vh;
   
   
   display: flex;
