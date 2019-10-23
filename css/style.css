@@ -277,7 +277,19 @@ a:active {
 
 @media only screen and (max-width : 768px) {
 .callout-container {
-background-size: 150vh 100vh;
+   height: 100vh;
+    
+    background: url('../assets/bg2.jpeg') no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 }
 
