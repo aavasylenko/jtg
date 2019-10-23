@@ -2,10 +2,29 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a:link {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ff828e;
+}
+
+a:active {
+  text-decoration: none;
+  color: #ff828e;
+}
+
 .container-wrapper {}
 
-.container-wrapper--red {
-    background-color: #f05f40;
+.container-wrapper--black {
+    background-color: #313333;
     color: white;
 }
 
@@ -32,7 +51,7 @@ body {
 .callout-container {
     height: 100vh;
     
-     background: url('../assets/bg.jpeg') no-repeat bottom right fixed; 
+     background: url('../assets/bg1.jpeg') no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -50,6 +69,28 @@ body {
 
 .features-container {
     
+}
+
+.gallery-container {
+    
+}
+
+#features-container {
+    
+    padding-bottom: 20px;
+    
+}
+
+.about-container {
+    
+}
+
+.partners-container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+ 
 }
 
 .opaque-overlay {
@@ -87,7 +128,7 @@ body {
 /*Navbar*/
 
 .navalert-container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     padding-left: 0;
@@ -125,12 +166,13 @@ body {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
-    padding-top: 25px;
+    padding-top: 100px;
 }
 
 .jumbotron .lead {
     margin: 25px 0;
     color: #ffffff;
+    font-size: 25px;
 }
 
 .jumbotron small {
@@ -146,11 +188,15 @@ body {
     width: 75px;
     height: 5px;
     border: 0;
-    background-color: #f05f40;
+    background-color: #bb3229;
 }
 
-.block-divider--red {
-    background-color: #f05f40;
+.block-divider--black {
+    background-color: #313333;
+}
+
+.block-divider--red: {
+    background-color: #bb3229;
 }
 
 .block-divider--short {
@@ -173,8 +219,8 @@ body {
 
 .btn--red {
     color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
+    background-color: #bb3229;
+    border-color: #bb3229;
 }
 
 .btn--red:hover, 
@@ -185,6 +231,7 @@ body {
     border-color: #f34925;
     color: white;
 }
+
 
 .feature {
     text-align: center;
@@ -204,7 +251,7 @@ body {
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
-    color: #f05f40;
+    color: #313333;
 }
 
 /*------------------------Media Queries*/
@@ -225,3 +272,108 @@ body {
     }
 }
 
+/*----------------------------Footer*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+/*-----------------------------------------About*/
+.about-story {
+    text-align: center;
+    padding: 0 25px;
+}
+
+/*-----------------------------------------Partners*/
+
+.partner-item div {
+    padding: 50px 100px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.rounded-logo {
+    border-radius: 75px;
+}
+
+/*------------------------------------------Contact*/
+.contact-details {
+    text-align: center;
+    padding: 0 25px;
+    font-size: 20px;
+}
+
+
+
+.key .value {
+    padding-right: 8px;
+    display: inline;
+}
+
+.key p,
+.value p {
+    margin: 0;
+}
+
+.key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 5px;
+    margin-top: 5px;
+    vertical-align: top;
+}
+
+.key p {
+    font-weight: 700;
+}
+
+.value {
+    width: 60%;
+    position: relative;
+}
+
+.contact-icon {
+    padding-top: 15px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+/*-----------------------------------Carousel*/
+.carousel-inner {
+    z-index: 0;
+}
