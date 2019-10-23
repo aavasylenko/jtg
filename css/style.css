@@ -283,7 +283,7 @@ a:active {
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
-  background-size: 60vh 100vh;
+  background-size: 100vw 100vh;
   
   
   display: flex;
