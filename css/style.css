@@ -279,11 +279,11 @@ a:active {
 .callout-container {
    height: 100vh;
     
-    background: url('../assets/bg2.jpeg') no-repeat bottom right fixed; 
+    background: url('../assets/bg2.jpeg') no-repeat top center fixed; 
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
-  background-size: 100% 100%;
+  background-size: 50vh 100vh;
   
   
   display: flex;
