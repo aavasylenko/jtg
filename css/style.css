@@ -280,10 +280,10 @@ a:active {
    height: 100vh;
     
     background: url('../assets/bg2.jpeg') no-repeat bottom right fixed; 
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  -o-background-size: auto;
-  background-size: auto;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
   
   
   display: flex;
