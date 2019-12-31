@@ -218,6 +218,7 @@ a:active {
     border-radius: 23px;
     width: 200px;
     margin-top: 25px;
+    box-shadow: none;
 }
 
 .btn--red {
@@ -233,6 +234,7 @@ a:active {
     background-color: #f34925;
     border-color: #f34925;
     color: white;
+    box-shadow: none;
 }
 
 
@@ -397,4 +399,8 @@ footer {
 /*-----------------------------------Carousel*/
 .carousel-inner {
     z-index: 0;
+}
+
+.quotes-row {
+    justify-content: center;
 }
